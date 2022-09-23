@@ -8,6 +8,7 @@
     "deploy-model": "node ./scripts/deploy-model.mjs",
     "start": "webpack serve --mode development",
     "build": "del build && cp -r public build && webpack --mode production"
+
   },
   "dependencies": {
     "@ceramicnetwork/http-client": "^2.0.0",
