@@ -3,7 +3,7 @@ import { CeramicClient } from '@ceramicnetwork/http-client'
 import { ModelManager } from '@glazed/devtools'
 
 // Connect to the local Ceramic node
-const ceramic = new CeramicClient('http://167.99.47.127:8080')
+const ceramic = new CeramicClient('http://167.99.47.127:7007')
 
 // Load and create a manager for the model
 const bytes = await readFile(new URL('model.json', import.meta.url))
