@@ -20,7 +20,7 @@ const did = new DID({
 await did.authenticate()
 
 // Connect to the local Ceramic node
-const ceramic = new CeramicClient('http://localhost:7007')
+const ceramic = new CeramicClient('http://167.99.47.127:8080')
 ceramic.did = did
 
 // Create a manager for the model

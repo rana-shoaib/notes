@@ -53,7 +53,7 @@ export async function getEnv(seed: Uint8Array): Promise<Env> {
   await did.authenticate()
 
   // Create the Ceramic instance and inject the DID
-  const ceramic = new CeramicClient('http://localhost:7007')
+  const ceramic = new CeramicClient('http://167.99.47.127:8080')
   ceramic.did = did
 
   // Create the loader, model and store
